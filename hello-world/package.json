@@ -12,13 +12,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ktoxcon/cc-infinity-gauntlet.git"
+    "url": "git+https://github.com/joendaba/cc-infinity-gauntlet.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Ktoxcon/cc-infinity-gauntlet/issues"
+    "url": "https://github.com/joendaba/cc-infinity-gauntlet/issues"
   },
-  "homepage": "https://github.com/Ktoxcon/cc-infinity-gauntlet#readme"
+  "homepage": "https://github.com/joendaba/cc-infinity-gauntlet#readme"
 }
