@@ -76,11 +76,11 @@ h1 {
   /* padding: 16px; */
   height: fit-content;
   width: fit-content;
-  border: none;
+  border: 1px solid;
   border-radius: 4px;
   cursor: pointer;
   outline: none;
-  margin: 0 2px;
+  margin: 0 1px;
   padding: 16px 22px;
   background: linear-gradient(
     90deg,
