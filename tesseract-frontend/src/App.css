@@ -25,7 +25,10 @@ body {
   text-align: center;
   margin: 50px auto;
   border-radius: 25px;
-  padding: 0 50px;
+  border-width: 5px;
+  border-color: aqua;
+  border-style: groove;
+  padding:  40px;
   padding-bottom: 32px;
 }
 
