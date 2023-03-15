@@ -12,7 +12,7 @@ body {
   background: linear-gradient(
     0deg,
     rgb(16, 255, 108) 0%,
-    rgba(100, 115, 255, 1) 100%
+    rgb(2, 27, 250) 100%
   );
 }
 .todo-app {
@@ -37,7 +37,7 @@ h1 {
 
 .complete {
   text-decoration: line-through;
-  text-decoration-color: dimgray;
+  text-decoration-color: rgb(213, 251, 3);
   opacity: 0.4;
 }
 
@@ -160,14 +160,24 @@ h1 {
 .delete-icon {
   margin-right: 5px;
   color: #fff;
+  transition: all 0.5s ease-in-out;
 }
+.delete-icon:hover {
+  color: #ff1a1a;
+  transform: rotate(10deg);
+  }
 
 .edit-icon {
   color: #fff;
+  transition: all 0.5s ease-in-out;
 }
-
+edit-icon:hover {
+  color: #00ccff;
+  transform: rotate(-10deg);
+  }
 .done {
   text-decoration: line-through;
+  transition: all 0.5s ease-in-out;
 }
 
 .todo {
