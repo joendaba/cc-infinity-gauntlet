@@ -164,7 +164,7 @@ h1 {
 }
 .delete-icon:hover {
   color: #ff1a1a;
-  transform: rotate(10deg);
+  transform: rotate(50deg);
   }
 
 .edit-icon {
@@ -173,7 +173,7 @@ h1 {
 }
 edit-icon:hover {
   color: #00ccff;
-  transform: rotate(-10deg);
+  transform: rotate(-45deg);
   }
 .done {
   text-decoration: line-through;
@@ -183,8 +183,10 @@ edit-icon:hover {
 .todo {
   width: 100%;
   text-align: left;
+  transition: all 0.5s ease-in-out;
 }
 
 .description {
   display: flex;
+  transition: all 0.5s ease-in-out;
 }
