@@ -1,0 +1,24 @@
+{
+  "name": "cc-infinity-gauntlet",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">\r   <img \r     align=\"center\" \r     width=\"400\" \r     height=\"400\" \r     src=\"./docs/img/fundamentals.png\" \r   />\r </p>",
+  "main": "index.cjs",
+  "type": "commonjs",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joendaba/cc-infinity-gauntlet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joendaba/cc-infinity-gauntlet/issues"
+  },
+  "homepage": "https://github.com/joendaba/cc-infinity-gauntlet#readme"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "community-tesseract",
+  "version": "1.0.0",
+  "description": "Fundamentals Final Project :)",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ktoxcon/cc-infinity-gauntlet.git"
+  },
+  "keywords": [
+    "Node.JS",
+    "JavaScript",
+    "SQLite",
+    "Express.js"
+  ],
+  "author": "Ktoxcon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ktoxcon/cc-infinity-gauntlet/issues"
+  },
+  "homepage": "https://github.com/Ktoxcon/cc-infinity-gauntlet#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "sqlite": "^4.1.2",
+    "sqlite3": "^5.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
