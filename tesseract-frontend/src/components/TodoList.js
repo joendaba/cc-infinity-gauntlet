@@ -78,7 +78,11 @@ function TodoList() {
 
   return (
     <>
-      <h1>Josemiguel's To-Do List</h1>
+      <h1>Josemiguel's To-Do List <span id='date-time'></span></h1>
+      <script>
+var dt = new Date();
+document.getElementById('date-time').innerHTML=dt;
+</script>
       <TodoForm onSubmit={addTodo} />
       <Todo
         todos={todos}
